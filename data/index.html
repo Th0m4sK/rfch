@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantbank</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEU0OkArMjhobHEoPUPFEBIu
+O0L+AAC2FBZ2JyuNICOfGx7xAwTjCAlCNTvVDA1aLzQ3COjMAAAAVUlEQVQI12NgwAaCDSA0888G
+CItjn0szWGBJTVoGSCjWs8TleQCQYV95evdxkFT8Kpe0PLDi5WfKd4LUsN5zS1sKFolt8bwAZrCa
+GqNYJAgFDEpQAAAzmxafI4vZWwAAAABJRU5ErkJggg==" />
+    
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="topnav">
+        <a href="/" class="active">	
+        	
+&#127968 Kantbank</a>
+        <div id="myLinks">
+          <a href="referenz.html">Referenz</a>
+          <a href="parameter.html">Parameter</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  &#129299
+        </a>
+        <button class="ist" id="IST" onclick="refresh()" ></button>
+        <input class="ParInput" type="number" id="SOLL" name="Weg" min="0" max="50000">
+ 
+        <button class="bt50" id="MINUS" onclick="relMinus()" >&#9667</button>
+        <button class="bt50" id="PLUS" onclick="relPlus()"  >&#9657</button>
+        <button class="bt50" id="STOP" onclick="stopMotor()" >&#9635</button>
+        <button class="bt50" id="START" onclick="runMotor()"  >&#9658</button>
+        <button class="bt50" style="width: 100%" id="NEXT" onclick="nextM()" >&#9411</button>
+        <input class="ParInput" type="number" id="SOLL0" name="Weg" min="0" max="50000">
+        <input class="ParInput" type="number" id="SOLL1" name="Weg" min="0" max="50000">
+        <input class="ParInput" type="number" id="SOLL2" name="Weg" min="0" max="50000">
+        <input class="ParInput" type="number" id="SOLL3" name="Weg" min="0" max="50000">
+        <input class="ParInput" type="number" id="SOLL4" name="Weg" min="0" max="50000">
+        <input class="ParInput" type="number" id="SOLL5" name="Weg" min="0" max="50000">
+        <input class="ParInput" type="number" id="SOLL6" name="Weg" min="0" max="50000">
+        <input class="ParInput" type="number" id="SOLL7" name="Weg" min="0" max="50000">
+        <input class="ParInput" type="number" id="SOLL8" name="Weg" min="0" max="50000">
+        <input class="ParInput" type="number" id="SOLL9" name="Weg" min="0" max="50000">
+        <button class="RefButton" id="SAVEPAR"  onclick="save()">SAVE</button>
+
+                            
+                         
+   
+</body>
+<script src="script.js"></script>
+</html>

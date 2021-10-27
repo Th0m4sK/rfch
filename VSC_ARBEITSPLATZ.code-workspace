@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "..\\automatic-length-flange\\MAIN_WEMOS"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"functional": "cpp"
+		}
+	}
+}
