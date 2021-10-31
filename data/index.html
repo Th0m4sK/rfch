@@ -16,7 +16,7 @@ GqNYJAgFDEpQAAAzmxafI4vZWwAAAABJRU5ErkJggg==" />
     <div class="topnav">
         <a href="/" class="active">	
         	
-&#127968 Kantbank</a>
+&#127968 FCH</a>
         <div id="myLinks">
           <a href="referenz.html">Referenz</a>
           <a href="parameter.html">Parameter</a>
@@ -24,24 +24,69 @@ GqNYJAgFDEpQAAAzmxafI4vZWwAAAABJRU5ErkJggg==" />
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                   &#129299
         </a>
-        <button class="ist" id="IST" onclick="refresh()" ></button>
-        <input class="ParInput" type="number" id="SOLL" name="Weg" min="0" max="50000">
- 
-        <button class="bt50" id="MINUS" onclick="relMinus()" >&#9667</button>
-        <button class="bt50" id="PLUS" onclick="relPlus()"  >&#9657</button>
-        <button class="bt50" id="STOP" onclick="stopMotor()" >&#9635</button>
-        <button class="bt50" id="START" onclick="runMotor()"  >&#9658</button>
-        <button class="bt50" style="width: 100%" id="NEXT" onclick="nextM()" >&#9411</button>
-        <input class="ParInput" type="number" id="SOLL0" name="Weg" min="0" max="50000">
-        <input class="ParInput" type="number" id="SOLL1" name="Weg" min="0" max="50000">
-        <input class="ParInput" type="number" id="SOLL2" name="Weg" min="0" max="50000">
-        <input class="ParInput" type="number" id="SOLL3" name="Weg" min="0" max="50000">
-        <input class="ParInput" type="number" id="SOLL4" name="Weg" min="0" max="50000">
-        <input class="ParInput" type="number" id="SOLL5" name="Weg" min="0" max="50000">
-        <input class="ParInput" type="number" id="SOLL6" name="Weg" min="0" max="50000">
-        <input class="ParInput" type="number" id="SOLL7" name="Weg" min="0" max="50000">
-        <input class="ParInput" type="number" id="SOLL8" name="Weg" min="0" max="50000">
-        <input class="ParInput" type="number" id="SOLL9" name="Weg" min="0" max="50000">
+        <table>
+            <tr>
+              <th>Teil</th>
+              <th>Farbe</th>
+            </tr>
+            <tr>
+              <td class="tabWerte">Auskuck</td>
+                
+              <td class="tabWerte">
+                <input type="color" id="f1" name="head" value="#ff0000" />
+                <div id="CLFV" class="tabWerte"></div>
+              </td>
+            </tr>
+            <tr>
+                <td class="tabWerte">Segel</td>
+                  
+                <td class="tabWerte">
+                  <input type="color" id="f2" name="head" value="#0000ff" />
+                  <div id="CLFV" class="tabWerte"></div>
+                </td>
+              </tr>
+              <tr>
+                <td class="tabWerte">Boot</td>
+                  
+                <td class="tabWerte">
+                  <input type="color" id="f3" name="head" value="#ff0000" />
+                  <div id="CLFV" class="tabWerte"></div>
+                </td>
+
+              </tr>
+              <tr>
+                <td class="tabWerte">Schrift</td>
+                  
+                <td class="tabWerte">
+                  <input type="color" id="f4" name="head" value="#ffffff" />
+                  <div id="CLFV" class="tabWerte"></div>
+                </td>
+              </tr>
+              <tr>
+                <td class="tabWerte">Ring</td>
+                  
+                <td class="tabWerte">
+                  <input type="color" id="f5" name="head" value="#0000ff" />
+                  <div id="CLFV" class="tabWerte"></div>
+                </td>
+              </tr>
+              <tr>
+                <td class="tabWerte">Helligkeit</td>
+                  
+                <td class="tabWerte">
+                  <input type="number" id="f6" name="head"  min="10" max="100" />
+                  <div id="CLFV" class="tabWerte"></div>
+                </td>
+              </tr>
+              
+
+              
+          </table>
+          <button class="RefButton" id="EIN1h"  onclick="Ein1()">EIN 1h</button>
+          <button class="RefButton" id="EIN2h"  onclick="Ein2()">EIN 2h</button>
+          <button class="RefButton" id="EIN3h"  onclick="Ein3()">EIN 4h</button>
+          <button class="RefButton" id="EIN6h"  onclick="Ein4()">EIN 6h</button>
+          <button class="RefButton" id="AUS"  onclick="AUS()">AUS</button>
         <button class="RefButton" id="SAVEPAR"  onclick="save()">SAVE</button>
 
                             

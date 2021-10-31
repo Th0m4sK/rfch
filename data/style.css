@@ -2,7 +2,12 @@ body{
     background-color: #e4f9f5;
 }
 
-
+html {
+  font-family: Arial;
+  display: inline-block;
+  margin: 0px auto;
+  text-align: center;
+}
 
 button{
 
@@ -27,6 +32,8 @@ p{
 
   
 }
+
+
 
 .myInput {
   border: 1px solid black;
@@ -101,89 +108,22 @@ p {
   
   color: white;
  }
- .RefInput {
-
+ table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  background-color: #ffffff;
   width: 100%;
-  
-  background: #ffffff;
-  box-sizing: border-box;
-  border: 20px solid #ff0202;
-  font-size: 48px;
+  font-size: 1.5rem;
+}
+
+td, th {
+  border: 1px solid #000000;
   text-align: center;
-  color: #000000;
-   margin-top: 0px;
-   margin-bottom: 20px;
- }
- .ParInput {
+  padding: 8px;
+  font-size: 1.5rem;
+}
 
-  width: 100%;
-  
-  background: #ffffff;
-  box-sizing: border-box;
-  border: 20px solid #ff0202;
-  font-size: 48px;
+.tabWerte{
+  font-size: 1rem;
   text-align: center;
-  color: #000000;
-   margin-top: 0px;
-   margin-bottom: 20px;
- }
- .RefButton {
-
-  width: 100%;
-  font-size: 48px;
-  text-align: center;
-  background: #30e3ca;
-  box-sizing: border-box;
-  border:10px solid #050505;
-  
-  color: #0c0c0c;
- }
- .RefText {
-
-  width: 100%;
-  font-size: 28px;
-  text-align: center;
-  background: #30e3ca;
-  box-sizing: border-box;
-  border: 0px solid #050505;
-  
-  color: #0c0c0c;
- }
-
-
- .ist {
-
-  width: 100%;
-  
-  background: #ffffff;
-  box-sizing: border-box;
-  border: 20px solid #22ca2a;
-  font-size: 56px;
-  text-align: right;
-  color: #000000;
-   margin-top: 0px;
-   margin-bottom: 20px;
- }
- .bt50 {
- float:left;
-  width: 50%;
-  font-size: 48px;
-  text-align: center;
-  background: #30e3ca;
-  box-sizing: border-box;
-  border:10px solid #050505;
-  
-  color: #0c0c0c;
- }
-
- .emty{
-  width: 100%;
-  font-size: 48px;
-  text-align: center;
-  background: #30e3ca;
-  color: #30e3ca;
- }
-
- .box:last-child {
-      margin-right: 0;
- }
+}
